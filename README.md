@@ -9,13 +9,6 @@
   <h3 align="center">Swiss Army Knife <strong>Fluture Based</strong> Data Structure</h3>
 
   <p align="center">
-    Wraps
-    <a href="http://knexjs.org/">
-        <img src="http://knexjs.org/assets/images/knex.png" alt="Fluture" height="40" style="vertical-align: baseline"/>
-    </a>
-  </p>
-
-  <p align="center">
     Powered by
     <a href="https://github.com/fluture-js/Fluture">
         <img src="https://github.com/fluture-js/Fluture/raw/master/logo.png" alt="Fluture" height="40" style="vertical-align: baseline"/>
@@ -50,9 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This data structure is a wrapper for reusing reuse everyday mutable and effectfull promise based libs in a functional monadic future based fashion.
-
-The data structure is a Fluture extension (so you can directly use all [Fluture operators and API]([Knex](http://knexjs.org/))).
+This data structure is a wrapper for reuse everyday mutable and effectfull promise based libs in a functional monadic future based fashion.
 
 If Fluture moand wraps a computation that async resolve to a value, Futurity brigs tree data structures:
 * Reader e -> a : [Reader monad](https://github.com/monet/monet.js/blob/master/docs/READER.md) used to lazy wrap a mutable effectfull lib (like knex or superagent for example).
